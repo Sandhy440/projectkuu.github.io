@@ -1,0 +1,41 @@
+/* | Elemen             | Warna                  | Kode Hex  |
+| ------------------ | ---------------------- | --------- |
+| **Warna utama**    | Midnight Blue          | `#2C3E50` |
+| **Aksen 1**        | Emerald Green          | `#2ECC71` |
+| **Aksen 2**        | Soft Gold              | `#F1C40F` |
+| **Latar belakang** | Light Grey / Off White | `#F8F9FA` |
+| **Teks utama**     | Charcoal Black         | `#333333` |
+| **Teks sekunder**  | Slate Grey             | `#7F8C8D` |
+ */
+
+:root {
+  --primary: ;
+}
+.font-poppins {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.banner {
+  background: url(asset/Desain\ tanpa\ judul.png) no-repeat center center;
+  background-size: cover;
+  /* padding-top: 13%;
+  padding-bottom: 20%; */
+}
+#about {
+  position: relative;
+  top: 200px;
+}
+
+#home {
+  padding: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .jarak {
+    padding-top: 20%;
+    padding-bottom: 15%;
+  }
+  .text-size {
+    font-size: 0.8em !important;
+  }
+}
